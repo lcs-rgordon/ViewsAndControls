@@ -59,6 +59,9 @@ struct ControlsListView: View {
                 
                 // ProgressView
                 ProgressViewExample()
+                
+                // Slider
+                SliderExample()
 
             }
             
