@@ -41,6 +41,10 @@ struct ControlsListView: View {
             // Toggle
             ToggleExample()
             
+            // Map
+            MapExample()
+                .frame(minHeight: 600)
+            
         }
     }
 }
