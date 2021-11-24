@@ -31,6 +31,9 @@ struct ControlsListView: View {
             
             // SecureField
             SecureFieldExample()
+            
+            // Image
+            ImageExample()
 
         }
     }
