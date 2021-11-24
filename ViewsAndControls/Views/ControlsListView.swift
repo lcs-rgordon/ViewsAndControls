@@ -17,11 +17,16 @@ struct ControlsListView: View {
             //
             // https://goshdarnswiftui.com
 
+            // Text
+            TextExample()
+            
+            // Label
+            LabelExample()
+            
             // TextField
             TextFieldExample()
             
         }
-        .padding()
     }
 }
 

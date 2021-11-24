@@ -9,12 +9,13 @@ import SwiftUI
 
 struct TextExample: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             
             Divider()
             
             Text("Text")
                 .bold()
+                .font(.title)
                 .padding(.bottom, 3)
             
             Text("A view that displays one or more lines of read-only text.")

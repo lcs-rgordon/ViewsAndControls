@@ -9,12 +9,13 @@ import SwiftUI
 
 struct TextFieldExample: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             
             Divider()
             
             Text("TextField")
                 .bold()
+                .font(.title)
                 .padding(.bottom, 3)
             
             Text("A control that displays an editable text interface.")

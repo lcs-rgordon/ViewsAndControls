@@ -13,6 +13,7 @@
 		0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80A5274DB89200829555 /* ControlsListView.swift */; };
 		0EDD80AA274DBB3F00829555 /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80A9274DBB3F00829555 /* TextFieldExample.swift */; };
 		0EDD80AC274DBBAE00829555 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80AB274DBBAE00829555 /* TextExample.swift */; };
+		0EDD80AE274DBD3400829555 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80AD274DBD3400829555 /* LabelExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0EDD80A5274DB89200829555 /* ControlsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsListView.swift; sourceTree = "<group>"; };
 		0EDD80A9274DBB3F00829555 /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
 		0EDD80AB274DBBAE00829555 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
+		0EDD80AD274DBD3400829555 /* LabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				0EDD80AB274DBBAE00829555 /* TextExample.swift */,
+				0EDD80AD274DBD3400829555 /* LabelExample.swift */,
 				0EDD80A9274DBB3F00829555 /* TextFieldExample.swift */,
 			);
 			path = Shared;
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EDD80AA274DBB3F00829555 /* TextFieldExample.swift in Sources */,
+				0EDD80AE274DBD3400829555 /* LabelExample.swift in Sources */,
 				0EDD80AC274DBBAE00829555 /* TextExample.swift in Sources */,
 				0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */,
 				0EDD8098274DB86B00829555 /* ViewsAndControlsApp.swift in Sources */,
