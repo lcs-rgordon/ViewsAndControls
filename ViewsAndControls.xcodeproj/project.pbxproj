@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0EDD8098274DB86B00829555 /* ViewsAndControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD8097274DB86B00829555 /* ViewsAndControlsApp.swift */; };
-		0EDD809A274DB86B00829555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD8099274DB86B00829555 /* ContentView.swift */; };
 		0EDD809C274DB86D00829555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD809B274DB86D00829555 /* Assets.xcassets */; };
 		0EDD809F274DB86D00829555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD809E274DB86D00829555 /* Preview Assets.xcassets */; };
+		0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80A5274DB89200829555 /* ControlsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EDD8094274DB86B00829555 /* ViewsAndControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsAndControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDD8097274DB86B00829555 /* ViewsAndControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndControlsApp.swift; sourceTree = "<group>"; };
-		0EDD8099274DB86B00829555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EDD809B274DB86D00829555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDD809E274DB86D00829555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EDD80A5274DB89200829555 /* ControlsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				0EDD8097274DB86B00829555 /* ViewsAndControlsApp.swift */,
-				0EDD8099274DB86B00829555 /* ContentView.swift */,
+				0EDD80A7274DB89700829555 /* Views */,
 				0EDD809B274DB86D00829555 /* Assets.xcassets */,
 				0EDD809D274DB86D00829555 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				0EDD809E274DB86D00829555 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EDD80A7274DB89700829555 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EDD80A5274DB89200829555 /* ControlsListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDD809A274DB86B00829555 /* ContentView.swift in Sources */,
+				0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */,
 				0EDD8098274DB86B00829555 /* ViewsAndControlsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
