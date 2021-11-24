@@ -45,6 +45,9 @@ struct ControlsListView: View {
             MapExample()
                 .frame(minHeight: 600)
             
+            // Picker
+            PickerExample()
+            
         }
     }
 }

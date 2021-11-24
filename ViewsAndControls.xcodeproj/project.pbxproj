@@ -20,6 +20,7 @@
 		0EDD80B7274DC37B00829555 /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B6274DC37B00829555 /* ButtonExample.swift */; };
 		0EDD80B9274DC4F200829555 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B8274DC4F200829555 /* ToggleExample.swift */; };
 		0EDD80BB274DC5C500829555 /* MapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80BA274DC5C500829555 /* MapExample.swift */; };
+		0EDD80BD274DC7AB00829555 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80BC274DC7AB00829555 /* PickerExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0EDD80B6274DC37B00829555 /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 		0EDD80B8274DC4F200829555 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
 		0EDD80BA274DC5C500829555 /* MapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExample.swift; sourceTree = "<group>"; };
+		0EDD80BC274DC7AB00829555 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0EDD80B6274DC37B00829555 /* ButtonExample.swift */,
 				0EDD80B8274DC4F200829555 /* ToggleExample.swift */,
 				0EDD80BA274DC5C500829555 /* MapExample.swift */,
+				0EDD80BC274DC7AB00829555 /* PickerExample.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDD80BD274DC7AB00829555 /* PickerExample.swift in Sources */,
 				0EDD80AA274DBB3F00829555 /* TextFieldExample.swift in Sources */,
 				0EDD80AE274DBD3400829555 /* LabelExample.swift in Sources */,
 				0EDD80B1274DBEF700829555 /* TextEditorExample.swift in Sources */,
