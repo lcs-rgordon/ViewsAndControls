@@ -18,6 +18,7 @@
 		0EDD80B3274DC01700829555 /* SecureFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B2274DC01700829555 /* SecureFieldExample.swift */; };
 		0EDD80B5274DC16900829555 /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B4274DC16900829555 /* ImageExample.swift */; };
 		0EDD80B7274DC37B00829555 /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B6274DC37B00829555 /* ButtonExample.swift */; };
+		0EDD80B9274DC4F200829555 /* ToggleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B8274DC4F200829555 /* ToggleExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0EDD80B2274DC01700829555 /* SecureFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExample.swift; sourceTree = "<group>"; };
 		0EDD80B4274DC16900829555 /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
 		0EDD80B6274DC37B00829555 /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
+		0EDD80B8274DC4F200829555 /* ToggleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0EDD80B2274DC01700829555 /* SecureFieldExample.swift */,
 				0EDD80B4274DC16900829555 /* ImageExample.swift */,
 				0EDD80B6274DC37B00829555 /* ButtonExample.swift */,
+				0EDD80B8274DC4F200829555 /* ToggleExample.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */,
 				0EDD8098274DB86B00829555 /* ViewsAndControlsApp.swift in Sources */,
 				0EDD80B7274DC37B00829555 /* ButtonExample.swift in Sources */,
+				0EDD80B9274DC4F200829555 /* ToggleExample.swift in Sources */,
 				0EDD80B3274DC01700829555 /* SecureFieldExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -38,6 +38,9 @@ struct ControlsListView: View {
             // Button
             ButtonExample()
 
+            // Toggle
+            ToggleExample()
+            
         }
     }
 }
