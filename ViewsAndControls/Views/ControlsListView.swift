@@ -18,23 +18,8 @@ struct ControlsListView: View {
             // https://goshdarnswiftui.com
 
             // TextField
-            Group {
-                
-                Divider()
-                
-                Text("TextField")
-                    .bold()
-                    .padding(.bottom, 3)
-                
-                Text("A control that displays an editable text interface.")
-                
-                // Example usage
-                TextField("This argument should the purpose of the text field within the context of your app, e.g.: 'Name' or 'Email Address'",
-                          text: .constant(""),
-                          prompt: Text("Type something..."))
-
-            }
-            .padding(.horizontal)
+            TextFieldExample()
+            
         }
         .padding()
     }

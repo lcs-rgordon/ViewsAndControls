@@ -11,6 +11,8 @@
 		0EDD809C274DB86D00829555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD809B274DB86D00829555 /* Assets.xcassets */; };
 		0EDD809F274DB86D00829555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDD809E274DB86D00829555 /* Preview Assets.xcassets */; };
 		0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80A5274DB89200829555 /* ControlsListView.swift */; };
+		0EDD80AA274DBB3F00829555 /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80A9274DBB3F00829555 /* TextFieldExample.swift */; };
+		0EDD80AC274DBBAE00829555 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80AB274DBBAE00829555 /* TextExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0EDD809B274DB86D00829555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDD809E274DB86D00829555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EDD80A5274DB89200829555 /* ControlsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsListView.swift; sourceTree = "<group>"; };
+		0EDD80A9274DBB3F00829555 /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		0EDD80AB274DBBAE00829555 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +74,19 @@
 		0EDD80A7274DB89700829555 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0EDD80A8274DBB3400829555 /* Shared */,
 				0EDD80A5274DB89200829555 /* ControlsListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0EDD80A8274DBB3400829555 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0EDD80AB274DBBAE00829555 /* TextExample.swift */,
+				0EDD80A9274DBB3F00829555 /* TextFieldExample.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDD80AA274DBB3F00829555 /* TextFieldExample.swift in Sources */,
+				0EDD80AC274DBBAE00829555 /* TextExample.swift in Sources */,
 				0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */,
 				0EDD8098274DB86B00829555 /* ViewsAndControlsApp.swift in Sources */,
 			);
