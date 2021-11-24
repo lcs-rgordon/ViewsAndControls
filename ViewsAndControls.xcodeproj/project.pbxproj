@@ -15,6 +15,7 @@
 		0EDD80AC274DBBAE00829555 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80AB274DBBAE00829555 /* TextExample.swift */; };
 		0EDD80AE274DBD3400829555 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80AD274DBD3400829555 /* LabelExample.swift */; };
 		0EDD80B1274DBEF700829555 /* TextEditorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B0274DBEF700829555 /* TextEditorExample.swift */; };
+		0EDD80B3274DC01700829555 /* SecureFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80B2274DC01700829555 /* SecureFieldExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0EDD80AB274DBBAE00829555 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
 		0EDD80AD274DBD3400829555 /* LabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExample.swift; sourceTree = "<group>"; };
 		0EDD80B0274DBEF700829555 /* TextEditorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExample.swift; sourceTree = "<group>"; };
+		0EDD80B2274DC01700829555 /* SecureFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				0EDD80AD274DBD3400829555 /* LabelExample.swift */,
 				0EDD80A9274DBB3F00829555 /* TextFieldExample.swift */,
 				0EDD80B0274DBEF700829555 /* TextEditorExample.swift */,
+				0EDD80B2274DC01700829555 /* SecureFieldExample.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				0EDD80AC274DBBAE00829555 /* TextExample.swift in Sources */,
 				0EDD80A6274DB89200829555 /* ControlsListView.swift in Sources */,
 				0EDD8098274DB86B00829555 /* ViewsAndControlsApp.swift in Sources */,
+				0EDD80B3274DC01700829555 /* SecureFieldExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

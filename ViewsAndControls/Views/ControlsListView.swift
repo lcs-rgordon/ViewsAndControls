@@ -25,7 +25,13 @@ struct ControlsListView: View {
             
             // TextField
             TextFieldExample()
+
+            // TextEditor
+            TextEditorExample()
             
+            // SecureField
+            SecureFieldExample()
+
         }
     }
 }
