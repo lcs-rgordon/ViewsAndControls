@@ -34,6 +34,9 @@ struct ControlsListView: View {
             
             // Image
             ImageExample()
+            
+            // Button
+            ButtonExample()
 
         }
     }
