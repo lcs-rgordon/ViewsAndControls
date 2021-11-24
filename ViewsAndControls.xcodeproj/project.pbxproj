@@ -22,6 +22,7 @@
 		0EDD80BB274DC5C500829555 /* MapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80BA274DC5C500829555 /* MapExample.swift */; };
 		0EDD80BD274DC7AB00829555 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80BC274DC7AB00829555 /* PickerExample.swift */; };
 		0EDD80C0274DCB0800829555 /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80BF274DCB0800829555 /* DatePickerExample.swift */; };
+		0EDD80C2274DCF3100829555 /* ProgressViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80C1274DCF3100829555 /* ProgressViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		0EDD80BA274DC5C500829555 /* MapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExample.swift; sourceTree = "<group>"; };
 		0EDD80BC274DC7AB00829555 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 		0EDD80BF274DCB0800829555 /* DatePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExample.swift; sourceTree = "<group>"; };
+		0EDD80C1274DCF3100829555 /* ProgressViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				0EDD80BA274DC5C500829555 /* MapExample.swift */,
 				0EDD80BC274DC7AB00829555 /* PickerExample.swift */,
 				0EDD80BF274DCB0800829555 /* DatePickerExample.swift */,
+				0EDD80C1274DCF3100829555 /* ProgressViewExample.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				0EDD80BB274DC5C500829555 /* MapExample.swift in Sources */,
 				0EDD8098274DB86B00829555 /* ViewsAndControlsApp.swift in Sources */,
 				0EDD80B7274DC37B00829555 /* ButtonExample.swift in Sources */,
+				0EDD80C2274DCF3100829555 /* ProgressViewExample.swift in Sources */,
 				0EDD80B9274DC4F200829555 /* ToggleExample.swift in Sources */,
 				0EDD80C0274DCB0800829555 /* DatePickerExample.swift in Sources */,
 				0EDD80B3274DC01700829555 /* SecureFieldExample.swift in Sources */,

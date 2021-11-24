@@ -54,8 +54,11 @@ struct ControlsListView: View {
 
             Group {
                 
-                // Date Picker
+                // DatePicker
                 DatePickerExample()
+                
+                // ProgressView
+                ProgressViewExample()
 
             }
             
