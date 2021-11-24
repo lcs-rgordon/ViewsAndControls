@@ -24,6 +24,7 @@
 		0EDD80C0274DCB0800829555 /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80BF274DCB0800829555 /* DatePickerExample.swift */; };
 		0EDD80C2274DCF3100829555 /* ProgressViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80C1274DCF3100829555 /* ProgressViewExample.swift */; };
 		0EDD80C4274DD0D500829555 /* SliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80C3274DD0D500829555 /* SliderExample.swift */; };
+		0EDD80C6274DD2E800829555 /* StepperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD80C5274DD2E800829555 /* StepperExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		0EDD80BF274DCB0800829555 /* DatePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExample.swift; sourceTree = "<group>"; };
 		0EDD80C1274DCF3100829555 /* ProgressViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewExample.swift; sourceTree = "<group>"; };
 		0EDD80C3274DD0D500829555 /* SliderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExample.swift; sourceTree = "<group>"; };
+		0EDD80C5274DD2E800829555 /* StepperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				0EDD80BF274DCB0800829555 /* DatePickerExample.swift */,
 				0EDD80C1274DCF3100829555 /* ProgressViewExample.swift */,
 				0EDD80C3274DD0D500829555 /* SliderExample.swift */,
+				0EDD80C5274DD2E800829555 /* StepperExample.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				0EDD80B9274DC4F200829555 /* ToggleExample.swift in Sources */,
 				0EDD80C4274DD0D500829555 /* SliderExample.swift in Sources */,
 				0EDD80C0274DCB0800829555 /* DatePickerExample.swift in Sources */,
+				0EDD80C6274DD2E800829555 /* StepperExample.swift in Sources */,
 				0EDD80B3274DC01700829555 /* SecureFieldExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

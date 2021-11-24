@@ -62,6 +62,9 @@ struct ControlsListView: View {
                 
                 // Slider
                 SliderExample()
+                
+                // Stepper
+                StepperExample()
 
             }
             
