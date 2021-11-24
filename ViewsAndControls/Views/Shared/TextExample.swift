@@ -12,7 +12,8 @@ struct TextExample: View {
         VStack(alignment: .leading) {
             
             Divider()
-            
+                .padding(.vertical, 20)
+
             Text("Text")
                 .bold()
                 .font(.title)

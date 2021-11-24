@@ -12,7 +12,8 @@ struct ToggleExample: View {
         VStack(alignment: .leading) {
             
             Divider()
-            
+                .padding(.vertical, 20)
+
             Text("Toggle")
                 .bold()
                 .font(.title)

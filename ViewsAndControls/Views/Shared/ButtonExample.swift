@@ -12,7 +12,8 @@ struct ButtonExample: View {
         VStack(alignment: .leading) {
             
             Divider()
-            
+                .padding(.vertical, 20)
+
             Text("Button")
                 .bold()
                 .font(.title)

@@ -13,7 +13,8 @@ struct MapExample: View {
         VStack(alignment: .leading) {
             
             Divider()
-            
+                .padding(.vertical, 20)
+
             Text("Map")
                 .bold()
                 .font(.title)

@@ -12,7 +12,8 @@ struct TextEditorExample: View {
         VStack(alignment: .leading) {
             
             Divider()
-            
+                .padding(.vertical, 20)
+
             Text("TextEditor")
                 .bold()
                 .font(.title)

@@ -12,7 +12,8 @@ struct LabelExample: View {
         VStack(alignment: .leading) {
             
             Divider()
-            
+                .padding(.vertical, 20)
+
             Text("Label")
                 .bold()
                 .font(.title)

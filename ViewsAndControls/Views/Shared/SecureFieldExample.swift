@@ -12,7 +12,8 @@ struct SecureFieldExample: View {
         VStack(alignment: .leading) {
             
             Divider()
-            
+                .padding(.vertical, 20)
+
             Text("SecureField")
                 .bold()
                 .font(.title)

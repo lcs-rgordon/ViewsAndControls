@@ -17,36 +17,47 @@ struct ControlsListView: View {
             //
             // https://goshdarnswiftui.com
 
-            // Text
-            TextExample()
-            
-            // Label
-            LabelExample()
-            
-            // TextField
-            TextFieldExample()
+            Group {
+                
+                // Text
+                TextExample()
+                
+                // Label
+                LabelExample()
+                
+                // TextField
+                TextFieldExample()
 
-            // TextEditor
-            TextEditorExample()
-            
-            // SecureField
-            SecureFieldExample()
-            
-            // Image
-            ImageExample()
-            
-            // Button
-            ButtonExample()
+                // TextEditor
+                TextEditorExample()
+                
+                // SecureField
+                SecureFieldExample()
+                
+                // Image
+                ImageExample()
+                
+                // Button
+                ButtonExample()
 
-            // Toggle
-            ToggleExample()
-            
-            // Map
-            MapExample()
-                .frame(minHeight: 600)
-            
-            // Picker
-            PickerExample()
+                // Toggle
+                ToggleExample()
+                
+                // Map
+                MapExample()
+                    .frame(minHeight: 600)
+                
+                // Picker
+                PickerExample()
+
+            }
+
+            Group {
+                
+                // Date Picker
+                DatePickerExample()
+
+            }
             
         }
     }

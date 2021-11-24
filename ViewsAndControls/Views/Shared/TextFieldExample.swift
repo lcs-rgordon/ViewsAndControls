@@ -12,6 +12,7 @@ struct TextFieldExample: View {
         VStack(alignment: .leading) {
             
             Divider()
+                .padding(.vertical, 20)
             
             Text("TextField")
                 .bold()
