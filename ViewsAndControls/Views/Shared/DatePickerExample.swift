@@ -8,68 +8,77 @@
 import SwiftUI
 
 struct DatePickerExample: View {
+    
+    // MARK: Stored properties
+    @State var selectedDateAndTime = Date()
+    
+    // MARK: Computed properties
+    
+    // Round up to the next hour
+    // ADAPTED FROM: https://stackoverflow.com/a/42626860
+    var dateAndTimeOfNextHour: Date {
+        
+        // Find current date and date components
+        let now = Date()
+        //2017-03-06 13:23:40 +0000
+        let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: now)
+        
+        // Round up to next hour
+        let newDate = calendar.date(bySettingHour: hour,
+                                    minute: 0,
+                                    second: 0,
+                                    of: now)!
+        return newDate
+    }
+    
+    // Current date and type, nicely formatted
+    var formattedDateAndTime: String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .short
+        formatter.doesRelativeDateFormatting = true
+        
+        return formatter.string(from: selectedDateAndTime)
+    }
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
                 
+                
+                
                 Divider()
                     .padding(.vertical, 20)
-
-                Text("DatePicker")
+                
+                Text("The selected date and time is:")
                     .bold()
-                    .font(.title)
-                    .padding(.bottom, 3)
+                    .padding(.vertical)
                 
-                Text("A control for selecting an absolute date.")
-                    .italic()
-                    .padding(.bottom, 10)
+                Text(formattedDateAndTime)
                 
-                Text("Compact styles")
-                    .bold()
-                    .padding(.bottom, 10)
+                // Larger, graphical
+                DatePicker("",
+                           selection: $selectedDateAndTime,
+                           in: dateAndTimeOfNextHour...)
+                .datePickerStyle(.graphical)
                 
-                // Example usage #1 - Date and Time
-                DatePicker("Event start",
-                           selection: .constant(Date()))
+                Divider()
+                    .padding(.vertical, 20)
+                                
+                // Compact
+                DatePicker("",
+                           selection: $selectedDateAndTime,
+                           in: dateAndTimeOfNextHour...)
+                .datePickerStyle(.compact)
                 
-                // Example usage #2 - Date only
-                DatePicker("Birthday",
-                           selection: .constant(Date()),
-                           displayedComponents: .date)
-
-                // Example usage #3 - Time only
-                DatePicker("Alarm time",
-                           selection: .constant(Date()),
-                           displayedComponents: .hourAndMinute)
-                
-                Group {
-                    
-                    Text("Wheel styles")
-                        .bold()
-                        .padding(.vertical, 10)
-
-                    // Example usage #4 - Date and Time, wheel style
-                    DatePicker("Event start",
-                               selection: .constant(Date()))
-                    .datePickerStyle(.wheel)
-                    
-                    // Example usage #5 - Date only
-                    DatePicker("Birthday",
-                               selection: .constant(Date()),
-                               displayedComponents: .date)
-                    .datePickerStyle(.wheel)
-
-                    // Example usage #3 - Time only
-                    DatePicker("Alarm time",
-                               selection: .constant(Date()),
-                               displayedComponents: .hourAndMinute)
-                    .datePickerStyle(.wheel)
-
-                }
-
             }
         }
         .padding(.horizontal)
+        // Runs once when view loads
+        .task {
+            selectedDateAndTime = dateAndTimeOfNextHour
+        }
     }
 }
 
