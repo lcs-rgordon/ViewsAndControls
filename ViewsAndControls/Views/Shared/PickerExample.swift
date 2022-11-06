@@ -24,7 +24,7 @@ struct PickerExample: View {
                 .padding(.bottom, 10)
             
             // Example usage #1 - Menu
-            Picker(selection: .constant(""),
+            Picker(selection: .constant(1),
                    label: Text("Picker Name"),
                    content: {
                 
@@ -34,10 +34,10 @@ struct PickerExample: View {
                 Text("Value 4").tag(3)
                 
             })
-            .pickerStyle(MenuPickerStyle())
+            .pickerStyle(.menu)
 
             // Example usage #2 - Wheel
-            Picker(selection: .constant(""),
+            Picker(selection: .constant(2),
                    label: Text("Picker Name"),
                    content: {
                 
@@ -51,12 +51,12 @@ struct PickerExample: View {
                 Text("Value 8").tag(7)
 
             })
-            .pickerStyle(WheelPickerStyle())
+            .pickerStyle(.wheel)
             .border(Color.black)
             .padding(.bottom, 5)
 
             // Example usage #3 - Segmented
-            Picker(selection: .constant(2),
+            Picker(selection: .constant(1),
                    label: Text("Picker Name"),
                    content: {
                 
@@ -66,7 +66,7 @@ struct PickerExample: View {
                 Text("Value 4").tag(3)
                 
             })
-            .pickerStyle(SegmentedPickerStyle())
+            .pickerStyle(.segmented)
             
         }
         .padding(.horizontal)
