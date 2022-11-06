@@ -24,6 +24,9 @@ struct ButtonExample: View {
                 .padding(.bottom, 10)
 
             // Example usage
+            // NOTE: Buttons are highly customizable.
+            //       This is a good overview:
+            //       https://www.appcoda.com/swiftui-buttons-ios-15/
             Button(action: {
                 // NOTE: Output will not be shown unless this app is run in the "full" simulator
                 print("Button was pressed")
