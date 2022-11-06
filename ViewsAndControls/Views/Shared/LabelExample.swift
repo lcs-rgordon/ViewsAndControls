@@ -22,7 +22,7 @@ struct LabelExample: View {
             Text("""
 Label is a convenient view that presents an image and text alongside each other.
 
-This is suitable for a menu item or your settings.
+This is suitable for a menu item or a row in a list of settings.
                  
 You can use your own image or one from SF Symbols.
 """)
