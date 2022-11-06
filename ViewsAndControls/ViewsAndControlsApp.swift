@@ -12,6 +12,9 @@ struct ViewsAndControlsApp: App {
     var body: some Scene {
         WindowGroup {
             ControlsListView()
+                .onAppear {
+                    UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+                }
         }
     }
 }
