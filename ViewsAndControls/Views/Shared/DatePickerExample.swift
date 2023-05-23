@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DatePickerExample: View {
+    
+    @State var selectedDate = Date()
+    
     var body: some View {
         VStack(alignment: .leading) {
             
@@ -29,7 +32,7 @@ struct DatePickerExample: View {
             
             // Example usage #1 - Date and Time
             DatePicker("Event start",
-                       selection: .constant(Date()))
+                       selection: $selectedDate)
             
             // Example usage #2 - Date only
             DatePicker("Birthday",

@@ -29,8 +29,8 @@ struct MapExample: View {
                 
                 MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.334722,
                                                                   longitude: -122.008889),
-                                   span: MKCoordinateSpan(latitudeDelta: 10,
-                                                          longitudeDelta: 10))
+                                   span: MKCoordinateSpan(latitudeDelta: 0.5,
+                                                          longitudeDelta: 0.5))
 
             ))
 
